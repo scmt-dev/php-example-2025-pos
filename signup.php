@@ -35,7 +35,7 @@
     <title>Sign In Account</title>
 </head>
 <body>
-    <h1>Sign In</h1>
+    <h1>Sign Up</h1>
     <form action="" method="post">
 
         <label for="fullname">Name:</label>
@@ -50,7 +50,11 @@
         <div>
             <?php echo $message; ?>
         </div>
-        <input type="submit" name="submit" value="Sign In">
+        <input type="submit" name="submit" value="Sign Up">
+        <p>
+            I have an account 
+            <a href="signin.php">Sign In</a>
+        </p>
     </form>
 </body>
 </html>
