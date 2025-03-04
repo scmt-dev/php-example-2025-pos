@@ -1,0 +1,6 @@
+*.txt
+*.log
+node_modules
+# ignore folder
+composer.phar
+/vendor/
