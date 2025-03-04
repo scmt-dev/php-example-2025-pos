@@ -17,7 +17,8 @@
                 // keep user logged in session
                 $_SESSION['user_id'] = $row['id'];
                 $_SESSION['fullname'] = $row['full_name'];
-                echo "Sign in successful";
+                header('Location: index.php');
+                // echo "Sign in successful";
             }else {
                 echo "Password is incorrect";
             }
